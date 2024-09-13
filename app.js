@@ -1,6 +1,6 @@
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://Abdfatahi:abuhaneefah@database1.1emyf0j.mongodb.net/?retryWrites=true&w=majority&appName=Database1";
+const uri = 
 const express = require('express');
 const bodyParser = require('body-parser');
 const date = require(__dirname + "/date.js")
