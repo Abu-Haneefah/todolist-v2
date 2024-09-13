@@ -1,0 +1,30 @@
+<%- include('header'); -%>
+
+    <div class="box" id="heading">
+        <h1><%= listTittle %></h1>
+    </div>
+
+   <div class="box">
+    <form action="/search" method="get">
+        <input type="date" name="searchDate" placeholder="Search by Date">
+        <button type="submit">Search</button>
+    </form>
+    <% for(var i = 0; i<newListItems.length; i++){ %>
+        <div class="item">
+            <input type="checkbox">
+            <p><%= newListItems[i].content %></p>
+        </div>
+    <% } %>
+    <form action="/" method="post">
+        <input type="text" name="newItem" autocomplete="off" placeholder="New Item">
+        <button type="submit" name="list" value=<%= listTittle %>> + </button>
+        <!-- <input type="hidden" name="list" value="<%= listTittle === 'Work List'?'Work':'Home' %>"> -->
+    </form>
+   </div>
+
+   <%- include('footer'); -%>
+
+    
+
+
+    

@@ -1,0 +1,70 @@
+abuhaneefah
+JSON.parse(data)
+192.168.166.229
+
+
+
+//     const myFruits={
+//       _id:1,
+//       name : "Apple",
+//       price: 300
+
+//     }
+// const fruit2 = {
+//      _id:2,
+//       name : "Orange",
+//       price: 200
+// }
+// const fruit3 = {
+//   _id:3,
+//    name : "Strawberry",
+//    price: 500
+// }
+//     const myFruits = [
+//       [     {
+//         _id:3,
+//         name: 'Cuccumber',
+//         price:900,
+//         score:8,                                                                            reveiw:'delicious'                                                                                                                                 
+//       },
+//       {
+//         _id:4,
+//         name: 'Grape',
+//         Price:100,
+//         score:7,                                                                                             reveiw: 'Good Friuts'   
+//       },
+//       {
+//         _id:5,
+//           name: 'Mango',
+//           Price:100,
+//           score:9,                                                                                           reveiw: 'Great Stuff'   
+//       }]
+//       ];
+//     [  {
+//       _id:1,
+//       name: 'Abudullah',
+//       score:8,                                                                            reveiw:'Excellent'                                                                                                                                 
+//     },
+//     {
+//       _id:2,
+//       name: 'Umar',
+//       score:7,                                                                                             reveiw: 'Good'   
+//     },
+//     {
+//       _id:3,
+//         name: 'Sofiyyah',
+//         score:9,                                                                                           reveiw: 'Excellent'   
+//     }]
+  
+
+
+
+
+
+
+
+
+
+
+
+https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari.json

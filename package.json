@@ -1,0 +1,20 @@
+{
+  "name": "fruitsproject",
+  "version": "1.0.0",
+  "description": "This is a mongo db project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abu Haneefah",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongodb": "^4.17.2",
+    "mongoose": "^8.5.3"
+  }
+}
